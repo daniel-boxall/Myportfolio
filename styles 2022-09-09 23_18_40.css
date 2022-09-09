@@ -1,0 +1,87 @@
+
+html {
+    min-height: 100%;
+}
+
+
+#navbar {
+    overflow: auto;
+    color: white;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    padding-bottom: 50px;
+    z-index: 100;
+  }
+
+body.home {
+    background-image: url("resources/index_background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body.about{
+    background-image: url("resources/index_background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+body.projects{
+    background-image: url("resources/htmlcode.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+body.contact{
+    background-image: url("resources/contact_background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#welcome{
+    padding-top: 100px;
+    margin-top: 100px;
+    z-index: 100;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.projects {
+    padding-top: 0px;
+    margin-top: 50px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+.P-title, .P-title1, .P-title2 {
+    text-align: center;
+}
+
+#footer:hover {
+    text-decoration: none;
+}
+.mapouter {
+    top: 25%;
+}
+.mt-5 container {
+    width: 25%;
+}
+#footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    padding-top: 5px;
+    color: white;
+}
+
