@@ -42,6 +42,7 @@ body.contact{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
 
 }
 
@@ -67,12 +68,16 @@ body.contact{
 #footer:hover {
     text-decoration: none;
 }
+
 .mapouter {
     top: 25%;
 }
-.mt-5 container {
+
+#form{
     width: 25%;
+    top: 25%;
 }
+
 #footer {
     position: absolute;
     bottom: 0;
