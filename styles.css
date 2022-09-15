@@ -69,8 +69,9 @@ body.contact{
     text-decoration: none;
 }
 
-.mapouter {
-    top: 25%;
+#map {
+    width: 350px;
+    height: 350px;
 }
 
 #form{
