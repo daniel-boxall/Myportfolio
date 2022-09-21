@@ -1,6 +1,7 @@
 
 html {
     min-height: 100%;
+
 }
 
 
@@ -12,6 +13,7 @@ html {
     width: 100%; /* Full width */
     padding-bottom: 50px;
     z-index: 100;
+    font-size: x-large;
   }
 
 body.home {
@@ -55,6 +57,42 @@ body.contact{
     color: white;
 }
 
+#name {
+    font-size: 75px;
+}
+
+.prog {
+    background-color: rgba(1, 13, 71, 0.5);
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 25px;
+}
+#tech {
+    background-color: rgba(1, 13, 71, 0.5);
+    width: 50%;
+    margin-left: 350px;
+    border-radius: 25px;
+}
+
+#html {
+     height: 75px;
+     margin-right: 20px;
+}
+
+#python {
+    height: 75px;
+    margin-right: 20px;
+}
+
+#flask {
+    height: 75px;
+    margin-right: 20px;
+}
+
+#clogo {
+    height: 75px;
+}
+
 .projects {
     padding-top: 0px;
     margin-top: 50px;
@@ -69,14 +107,30 @@ body.contact{
     text-decoration: none;
 }
 
-#map {
-    width: 350px;
-    height: 350px;
-}
-
 #form{
     width: 25%;
     top: 25%;
+}
+
+.get-in-touch {
+    position: absolute;
+    bottom: 0px;
+    left: 40%;
+    color: white;
+    text-align: center;
+    padding-bottom: 10%;
+    text-decoration: none;
+
+}
+
+a.get-in-touch:link {
+    color:white;
+    text-decoration: none;
+}
+
+a.get-in-touch:visited {
+    color: white;
+    text-decoration: none;
 }
 
 #footer {
