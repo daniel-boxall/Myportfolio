@@ -16,28 +16,22 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     </head>
     <body class="about">
-        <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-transparent" style="color:white">
-            <a class="navbar-brand" style="color:white" href="index.html"><h4>Future Web Development</h4></a>
-            <button class="navbar-toggler" style="color: white;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" style="color:white"href="index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="color: white"href="about.html">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="color:white" href="projects.html">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="color: white" href="contact.html">Contact</a>
-                    </li>
-                </ul>
+        <header>
+            <div class="container">
+                <h1 class="logo"><a href="index.html">Future Web Dev</a></h1>
+                <nav class="site-nav">
+                    <ul>
+                        <li><a href="index.html"><i class="fa fa-home site-nav--icon"></i>Home</a></li>
+                        <li><a href="about.html"><i class="fa fa-info site-nav--icon"></i>About me</a></li>
+                        <li><a href="projects.html"><i class="fa fa-code-branch site-nav--icon"></i>Projects</a></li>
+                        <li><a href="contact.html"><i class="fa fa-envelope site-nav--icon"></i>Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="menu-toggle">
+                    <div class="hamburger"></div>
+                </div>
             </div>
-        </nav>
+           </header>
         <container class="content">
             <div id="welcome">
                 <h1 id="name">A Little About Me</h1>
@@ -76,8 +70,11 @@
             <i class="fa-brands fa-codepen"></i>
             <i class="fa-brands fa-free-code-camp"></i>
         </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="nav.js"></script>
     </body>
 </html>
