@@ -143,9 +143,10 @@ header::after {
 
 @media (min-width: 700px) {
     .logo {
+        font-size: 25px;
         border: none;
     }
-    
+
      .menu-toggle {
         display: none;
      }
