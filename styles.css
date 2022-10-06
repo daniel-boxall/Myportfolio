@@ -279,25 +279,24 @@ body.contact{
     top: 25%;
 }
 
-.get-in-touch {
-    position: absolute;
-    top: 100%;
-    bottom: 0px;
-    left: 40%;
-    color: white;
-    text-align: center;
-    padding-bottom: 10%;
-    text-decoration: none;
 
+
+
+#get-in-touch {
+    position: fixed;
+    bottom: 3rem;
+    align-content: center;
+    color: white;
+    text-decoration: none;
 }
 
-a.get-in-touch:link {
+#get-in-touch a:hover {
+    text-decoration: none;
+    color: rgb(70, 130, 180);
+}
+
+#get-in-touch a {
     color:white;
-    text-decoration: none;
-}
-
-a.get-in-touch:visited {
-    color: white;
     text-decoration: none;
 }
 
