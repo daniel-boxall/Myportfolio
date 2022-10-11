@@ -13,6 +13,14 @@ body {
     overflow-x: hidden;
 }
 
+body.projects{
+    background-image: url("resources/htmlcode.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
 header {
     background: rgba(70, 130, 180, 0.4);
     color: white;
@@ -204,13 +212,7 @@ body.about{
 
 }
 
-body.projects{
-    background-image: url("resources/htmlcode.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 
-}
 
 body.contact{
     background-image: url("resources/contact_background.jpg");
