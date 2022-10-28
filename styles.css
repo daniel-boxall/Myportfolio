@@ -281,13 +281,10 @@ body.contact{
     top: 25%;
 }
 
-
-
-
 #get-in-touch {
     position: fixed;
     bottom: 3rem;
-    align-content: center;
+    align-content: auto;
     color: white;
     text-decoration: none;
 }
