@@ -193,11 +193,16 @@ header::after {
     .site-nav--icon {
         display: none !important;
     }
+} 
 
-    #tech-used {
+@media (max-width: 700px) {
+    #tech-used,
+    #desktop {
         display: none;
     }
-} 
+    
+}
+
 
 body.home {
     background-image: url("resources/index_background.jpg");
