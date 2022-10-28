@@ -60,7 +60,7 @@ header::after {
     position: absolute;
     top: 100%;
     right: 0%;
-    background: rgba(70, 130, 180, 0.3);
+    background: rgba(70, 130, 180, 0.8);
     z-index: 1000;
     height: 0px;
     overflow: hidden;
