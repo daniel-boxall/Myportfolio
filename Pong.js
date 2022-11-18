@@ -44,13 +44,11 @@ function handleLose() {
 }
 
 el.addEventListener("touchstart", (e) => {
-    e.preventDefault();
-    playerPaddle.position = e.touches[0].clientY / window.innerHeight * 100;
+    playerPaddle.position = (e.y / window.innerHeight) * 100;
 });
 
 el.addEventListener("touchmove", (e) => {
-    e.preventDefault();
-    playerPaddle.position = e.touches[0].clientY / window.innerHeight * 100;
+    playerPaddle.position = (e.y / window.innerHeight) * 100;
 });
 
 document.addEventListener("pointermove", e => {
