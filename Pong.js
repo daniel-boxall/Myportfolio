@@ -51,9 +51,6 @@ function touchHandler(event) {
 document.addEventListener("touchstart", touchHandler);
 document.addEventListener("touchmove", touchHandler);
 
-el.addEventListener("touchmove", (e) => {
-    playerPaddle.position = (e.y / window.innerHeight) * 100;
-});
 
 document.addEventListener("pointermove", e => {
     playerPaddle.position = (e.y / window.innerHeight) * 100
