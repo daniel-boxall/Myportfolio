@@ -46,7 +46,7 @@ if(navigator.userAgent.match(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/
 document.ontouchstart=listener;
 else
 
-document.addEventListener("pointermove", "touchmove", e => {
+document.addEventListener("pointermove", e => {
     playerPaddle.position = (e.y / window.innerHeight) * 100
 })
 
