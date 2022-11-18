@@ -44,7 +44,7 @@ function handleLose() {
 
 if(navigator.userAgent.match(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i))
 document.ontouchstart=listener;
-else
+else document.onclick=listener;
 
 document.addEventListener("pointermove", e => {
     playerPaddle.position = (e.y / window.innerHeight) * 100
