@@ -6,6 +6,7 @@ const playerPaddle = new Paddle(document.getElementById("player-paddle"))
 const computerPaddle = new Paddle(document.getElementById("computer-paddle"))
 const playerScoreElem = document.getElementById("player-score")
 const computerScoreElem = document.getElementById("computer-score")
+const el = document.querySelector("canvas");
 
 let lastTime
 function update(time) {
@@ -42,13 +43,15 @@ function handleLose() {
     computerPaddle.reset()
 }
 
-document.addEventListener("touchstart", e => {
-    playerPaddle.position = (e.y / window.innerHeight) * 100
-})
+el.addEventListener("touchstart", (e) => {
+    e.preventDefault();
+    playerPaddle.position = e.touches[0].clientY / window.innerHeight * 100;
+});
 
-document.addEventListener("touchmove", e => {
-    playerPaddle.position = (e.y / window.innerHeight) * 100
-})
+el.addEventListener("touchmove", (e) => {
+    e.preventDefault();
+    playerPaddle.position = e.touches[0].clientY / window.innerHeight * 100;
+});
 
 document.addEventListener("pointermove", e => {
     playerPaddle.position = (e.y / window.innerHeight) * 100
