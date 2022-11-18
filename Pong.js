@@ -42,13 +42,9 @@ function handleLose() {
     computerPaddle.reset()
 }
 
-document.addEventListener("touchstart", e => {
-    playerPaddle.position = (e.y / window.innerHeight) * 100})
-    
 document.addEventListener("touchmove", e => {
     playerPaddle.position = (e.y / window.innerHeight) * 100
 })
-
 
 document.addEventListener("pointermove", e => {
     playerPaddle.position = (e.y / window.innerHeight) * 100
