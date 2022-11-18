@@ -43,7 +43,7 @@ function handleLose() {
 }
 
 
-document.addEventListener("pointermove", e => {
+document.addEventListener("pointermove", "touchmove", e => {
     playerPaddle.position = (e.y / window.innerHeight) * 100
 })
 
