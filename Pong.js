@@ -42,9 +42,13 @@ function handleLose() {
     computerPaddle.reset()
 }
 
+if(navigator.userAgent.match(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i))
+document.ontouchstart=listener;
+else
 
 document.addEventListener("pointermove", "touchmove", e => {
     playerPaddle.position = (e.y / window.innerHeight) * 100
 })
+
 
 window.requestAnimationFrame(update)
