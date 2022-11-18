@@ -42,14 +42,12 @@ function handleLose() {
     computerPaddle.reset()
 }
 
-function touchHandler(event) {
-    const touch = event.changedTouches[0]
-    const rect = playerPaddle.rect()
-    playerPaddle.position = (touch.clientY - rect.top) / rect.height * 100
-}
-
-document.addEventListener("touchstart", touchHandler);
-document.addEventListener("touchmove", touchHandler);
+document.addEventListener("touchstart", e => {
+    playerPaddle.position = (e.y / window.innerHeight) * 100})
+    
+document.addEventListener("touchmove", e => {
+    playerPaddle.position = (e.y / window.innerHeight) * 100
+})
 
 
 document.addEventListener("pointermove", e => {
